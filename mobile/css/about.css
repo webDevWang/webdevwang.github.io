@@ -1,0 +1,252 @@
+﻿.header-wrap {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0.8rem;
+}
+
+.header-wrap .header {
+    height: 0.8rem;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.header-wrap .logo {
+    position: absolute;
+    top: 0;
+    left: 0.2rem;
+    box-sizing: border-box;
+    height: 0.8rem;
+}
+
+.header-wrap .logo img {
+    display: block;
+    font-size: 0;
+    height: 100%;
+    width: auto;
+}
+
+.header-wrap .header-right {
+    text-align: center;
+    font-size: 0.30rem;
+    float: left;
+    width: 100%;
+    line-height: 0.8rem;
+}
+
+.header-wrap .header-right a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner-wrapper .info {
+    opacity: 0;
+    font-size: 0;
+}
+
+.banner-wrap {
+    width: 100%;
+}
+
+.banner-wrap .bn-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    padding:0  0.15rem;
+}
+
+.about-text,
+.about-text .part2 {
+    margin-top: .70rem;
+    overflow: hidden;
+}
+.about-text .part2{
+  margin-top: .0;
+}
+
+.about-text h1 {
+    font-size: .32rem;
+    color: #424242;
+    font-weight: normal;
+    padding-bottom: .34rem;
+}
+
+.about-text .part1 p {
+    color: #676767;
+    font-size: .24rem;
+    line-height: .38rem;
+}
+
+.about-text .part1 .detail {
+    line-height: .38rem;
+    padding-top: .18rem;
+    margin-bottom: .80rem;
+}
+
+.about-text .circle .about-intro{
+  width:100%;
+  position: relative;
+
+}
+.about-text .circle .about-intro img{
+  position: absolute;
+  width:100%;
+}
+.about-text .circle ul{
+    position: absolute;
+    width:100%;
+    height:1.94rem;
+     height:0;
+    overflow: hidden;
+}
+.about-text .circle ul li {
+    float: left;
+    width: 25%;
+    height:100%;
+    text-align: center;
+    background: url(../../images/about/circle.png) no-repeat center center;
+    background-size: cover;
+}
+
+.about-text .circle li h3 {
+    color: #7161D6;
+    font-size: .28rem;
+    padding-top: .16rem;
+    font-weight: normal;
+}
+
+.about-text .circle li p {
+    color: #826CDE;
+    font-size: .18rem;
+    line-height: .28rem;
+}
+
+.about-text .circle .no1 {
+    /*left: 0;*/
+    top: 0;
+}
+
+.about-text .circle .no2 {
+    /*left: 2.30rem;*/
+    top: 0;
+}
+
+.about-text .circle .no3 {
+    /*left: 4.60rem;*/
+    top: 0;
+}
+
+.about-text .circle .no4 {
+    /*left: 6.90rem;*/
+    top: 0;
+}
+
+.about-text .circle .no1 h3,
+.about-text .circle .no4 h3 {
+    padding-bottom: .26rem;
+}
+
+.about-text .circle .no2 h3,
+.about-text .circle .no3 h3 {
+    padding-bottom.: 8rem;
+}
+
+.about-text .circle {
+   /* padding-bottom: 1.04rem;*/
+    height: 2.56rem;
+    border-bottom.: 1rem solid #EBEBEB;
+}
+
+.part2 p {
+    color: #444444;
+    font-size: .24rem;
+}
+
+.part2 .phone {
+    color: #6E5DD5;
+    font-size: .24rem;
+    line-height: .25rem;
+    position: relative;
+    padding-left: .34rem;
+    margin-top: .26rem;
+}
+
+.part2 .phone:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: .25rem;
+    height: .25rem;
+    background: url(../../images/about/phone.png) no-repeat center center;background-size: cover;
+}
+
+.part2 .mail {
+    color: #888888;
+    font-size: .22rem;
+    line-height: .30rem;
+    position: relative;
+    padding-left: .34rem;
+}
+
+.part2 .mail:before {
+    content: '';
+    position: absolute;
+    top: 0.1rem;
+    left: 0;
+    width: .24rem;
+    height: .17rem;
+    background: url(../../images/about/email.png) no-repeat center center;background-size: cover;
+}
+
+.part2 .address {
+    color: #898989;
+    font-size: .22rem;
+    line-height: .26rem;
+    position: relative;
+    padding-left: .36rem;
+}
+
+.part2 .address:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: .26rem;
+    height: .21rem;
+    background: url(../../images/about/home.png) no-repeat center center;background-size: cover;
+}
+
+.part2 ul li {
+    float: left;
+    margin-right: .97rem;
+}
+
+.part2 ul li div {
+    margin-bottom: .20rem;
+}
+
+.code-area {
+    margin-top: .23rem;
+}
+
+.code-area ul li {
+    float: left;
+}
+
+.code-area .note {
+    padding: .22rem 0 .80rem .34rem;
+}
+
+.code-area .note p {
+    color: #2F2F2F;
+    font-size: .18rem;
+    line-height: .30rem;
+}
+
+

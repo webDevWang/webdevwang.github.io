@@ -1,0 +1,271 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.hd-title {
+    padding: 0.15rem 0;
+    overflow: hidden;
+}
+
+.hd-title ul {
+    position: relative;
+    overflow: hidden;
+}
+
+.hd-title ul .tit-text {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -0.48rem;
+}
+
+.hd-title ul .tit-text p {
+    font-size: 0.24rem;
+}
+
+.hd-title .tit-bg {
+    width: 0.98rem;
+    height: 0.3rem;
+    background: url(../../images/bookStore/readNum.png) no-repeat center center;
+    background-size: 100%;
+    margin-left: 0.2rem;
+}
+
+.hd-title .tit-bg a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.fl {
+    float: left;
+}
+
+.rt {
+    float: right;
+}
+
+.hd-title li {
+    color: #B6B6B6;
+    font-size: 0.24rem;
+}
+
+.ban {
+    position: relative;
+    width: 100%;
+    height: 2.6rem;
+    background: url(../../images/bookStore/ban2.png) no-repeat center center;
+    background-size: cover; 
+}
+
+.ban-video {
+    background: url(../../images/video/ban.png) no-repeat center center;
+    background-size: cover; 
+}
+
+.ban-class {
+    background: url(../../images/class/ban.png) no-repeat center center;
+    background-size: cover; 
+}
+
+.ban-3d {
+    background: url(../../images/3d/ban.png) no-repeat center center;
+    background-size: cover; 
+}
+
+.ban-next {
+    background: url(../../images/next/ban.png) no-repeat center center;
+    background-size: cover; 
+}
+
+.ban .ban-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -0.51rem;
+    margin-left: -1.55rem;
+    font-size: 0.68rem;
+    color: white;
+}
+
+.tabs {
+    padding-top: 0.08rem;
+}
+
+.tabs .tabs-box {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #E8E8E8;
+}
+
+.tabs ul {
+    width: 6rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.tabs ul li {
+    font-size: 0.18rem;
+    position: relative;
+    line-height: 0.38rem;
+    width: 33.333%;
+    text-align: center;
+}
+
+.tabs ul li a {
+    color: #757575;
+    text-decoration: none;
+    display: block;
+}
+
+.tabs ul li a:hover {
+    /* border-bottom:2px solid #4F8AFF; */
+    color: #4F8AFF;
+}
+
+.tabs ul li .active {
+    color: #4F8AFF;
+    /* border-bottom:2px solid #4F8AFF; */
+}
+
+.prob {
+    overflow: hidden;
+}
+
+.prob h1 {
+    color: #464646;
+    font-size: 0.32rem;
+    font-weight: normal;
+    padding-top: 0.2rem;
+    padding-left: 0.12rem;
+}
+
+.prob .pic {
+    padding: 0.4rem 0 0.5rem;
+    text-align: center;
+}
+
+.prob .pic img {
+    width: 80%;
+}
+
+.prob .list li {
+    width: 80%;
+    margin: 0 auto 0.5rem;
+}
+
+.prob .list img {
+    width: 100%;
+}
+
+.prob .list li h3 {
+    color: #464646;
+    font-size: 0.32rem;
+    font-weight: normal;
+    position: relative;
+    padding-left: 1.07rem;
+}
+
+.prob .list li h3:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.03rem;
+    width: 0.93rem;
+    height: 0.33rem;
+    background: url(../../images/bookStore/icon1.png) no-repeat center center;
+    background-size: 100%;
+}
+
+.prob .list .probLi2 h3:before {
+    background-image: url(../../images/bookStore/icon2.png);
+}
+
+.prob .list .probLi3 h3:before {
+    background-image: url(../../images/bookStore/icon3.png);
+}
+
+.prob .list .probLi4 h3:before {
+    background-image: url(../../images/bookStore/icon4.png);
+}
+
+.prob2 .list .probLi1 h3:before {
+    background-image: url(../../images/bookStore/iconP1.png);
+}
+
+.prob2 .list .probLi2 h3:before {
+    background-image: url(../../images/bookStore/iconP2.png);
+}
+
+.prob2 .list .probLi3 h3:before {
+    background-image: url(../../images/bookStore/iconP3.png);
+}
+
+.prob .list li p {
+    color: #878787;
+    font-size: 0.22rem;
+    line-height: 0.34rem;
+}
+
+.prob .hd {
+    padding-bottom: 0.13rem;
+}
+
+.prob .Img {
+    margin: .3rem auto 0;
+    max-width: 2.7rem;
+}
+
+.prob2 {
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.app {
+    padding-bottom: 0.4rem;
+}
+
+.app p {
+    color: #000000;
+    font-size: 0.18rem;
+    padding-bottom: 0.08rem;
+}
+
+.app h1 {
+    padding-bottom: .6rem;
+}
+
+.app .part-rt {
+    padding-left: .14rem;
+}
+
+.app .part-rt img {
+    width: 100%;
+    max-width: .7rem;
+}
+.app .part-rt  .code img{
+  display: block;
+  height: 0.7rem;
+  width: 0.7rem;
+}
+.app .part-lf {
+    padding-top: .06rem;
+}
+
+.app .part-lf img {
+    width: 100%;
+    max-width: .97rem;
+}
+
+.app ul {
+    margin: 0 auto;
+}
+
+.app li {
+    margin: 0 0.15rem;
+    position: relative;
+}
+
+.app .no-mgRt {
+    margin-right: 0;
+}

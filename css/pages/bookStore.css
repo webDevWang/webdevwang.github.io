@@ -84,6 +84,8 @@
       width: 660px;
       margin: 0 auto;
       overflow: hidden;
+      position: relative;
+      top: 2px;
   }
 
   .tabs ul li {
@@ -99,13 +101,13 @@
   }
 
   .tabs ul li a:hover {
-      /* border-bottom:2px solid #4F8AFF; */
+       border-bottom:2px solid #4F8AFF;
       color: #4F8AFF;
   }
 
   .tabs ul li .active {
       color: #4F8AFF;
-      /* border-bottom:2px solid #4F8AFF; */
+       border-bottom:2px solid #4F8AFF;
   }
 
   .tabs .midLi {

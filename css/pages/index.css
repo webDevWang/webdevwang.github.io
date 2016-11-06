@@ -672,6 +672,34 @@
 .part-bottom .sec-line{
     padding:0 31px 0 66px;
 }
+.part-bottom .sina-box{
+    position: relative;
+}
+
+.part-bottom  .sina-qrc{
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    left: -85px;
+    width: 195px;
+    height: 234px;
+}
+
+.part-bottom  .sina-qrc img{
+    width: 195px;
+    height: 234px;
+}
+.part-bottom  .sina-qrc p{
+    position: absolute;
+    bottom: 12px;
+    left: 15px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+.part-bottom .sina-box:hover  .sina-qrc{
+    display: block;
+}
 .part-bottom .icon-sina{
     display: inline-block;
     vertical-align: bottom;
